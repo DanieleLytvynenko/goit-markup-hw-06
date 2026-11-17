@@ -23,8 +23,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 408px;
-  padding: 72px 24px 24px;
+  width: 288px;
+  padding: 72px 16px 24px;
   background-color: #fcfcfc;
   border-radius: 4px;
   box-shadow:
@@ -219,4 +219,11 @@
 .modal-submit:hover,
 .modal-submit:focus {
   background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    padding: 72px 24px 24px;
+  }
 }
